@@ -1,0 +1,24 @@
+https://aitalk.aitutuor.top/xxmbdc/jsonrequest
+
+POST /xxmbdc/jsonrequest HTTP/1.1
+Host	aitalk.aitutuor.top
+Connection	keep-alive
+Content-Length	77
+content-type	application/json
+Accept-Encoding	gzip,compress,br,deflate
+User-Agent	Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.26(0x18001a33) NetType/WIFI Language/zh_CN
+Referer	https://servicewechat.com/wx42ea77c6bd06047d/46/page-frame.html
+
+
+{
+	"type": "firstreq",
+	"openid": "no",
+	"tempid": "001ohtFa1zmnND0JmnIa168IXk1ohtFq"
+}
+
+
+{
+	"type": "getsinglecourse",
+	"openid": "oBkXr4g4HjdC_HCkkRy1SJFjPPvQ",
+	"lastcourse": "四级高频2000-DAY 1",
+}
