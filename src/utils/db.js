@@ -13,13 +13,19 @@ module.exports={
             });
         }
     },
-    async saveIntoLesson(lesson,level,unit=''){
+
+    async updateLessonByWords(lesson,level,unit='',words){
+        
+    }
+
+    async saveIntoLesson(lesson,level,unit='',words = ''){
         return mysql
             .table('lesson')
             .add({
                 book_name: lesson,
                 level_name: level,
                 unit_name: unit,
+                words: words,
                 ctime: Date.now(),
                 utime: Date.now()
             })
