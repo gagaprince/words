@@ -15,8 +15,8 @@ module.exports={
     },
 
     async updateLessonByWords(lesson,level,unit='',words){
-        
-    }
+         
+    },
 
     async saveIntoLesson(lesson,level,unit='',words = ''){
         return mysql
