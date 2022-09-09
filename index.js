@@ -5,5 +5,6 @@ const spiderLesson = require('./src/spiderLesson');
 //     console.log(data);
 // });
 
-// parseLesson.init();
-spiderLesson.test();
+parseLesson.init();
+// spiderLesson.test();
+parseLesson.parseLessonTag();

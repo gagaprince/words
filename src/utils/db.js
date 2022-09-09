@@ -71,4 +71,16 @@ module.exports={
             });
     },
 
+    async saveIntoLessonInfo(lessonInfo){
+        return mysql
+            .table('lesson_info')
+            .add(lessonInfo)
+            .then(insertId => {
+                console.log(insertId);
+            })
+            .catch(e => {
+                console.log(e);
+            });
+    },
+
 }
